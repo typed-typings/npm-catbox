@@ -58,7 +58,7 @@ declare namespace Client {
     stop(): void;
     start(callback: (err?: Error | null) => void): void;
     isReady(): boolean;
-    validateSegmentName(name: string): boolean;
+    validateSegmentName(name: string): Error | null;
     get(key: Client.Key, callback: (err: Error | null, result?: Client.Result<T> | null) => void): void;
     set(key: Client.Key, value: T, ttl: number, callback: (err?: Error | null) => void): void;
     drop(key: Client.Key, callback: (err?: Error | null) => void): void;
