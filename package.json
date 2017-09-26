@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/types/npm-catbox#readme",
   "devDependencies": {
-    "catbox": "^7.1.2",
+    "catbox": "^8.0.0",
     "greenkeeper-postpublish": "^1.0.1",
     "ts-node": "^3.0.1",
     "tslint": "^5.0.0",
