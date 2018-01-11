@@ -28,7 +28,7 @@
     "catbox": "^10.0.1",
     "greenkeeper-postpublish": "^1.0.1",
     "ts-node": "^4.0.0",
-    "tslint": "^5.0.0",
+    "tslint": "^5.9.1",
     "tslint-config-typings": "^0.3.0",
     "typescript": "^2.0.3",
     "typings": "^2.0.0"
